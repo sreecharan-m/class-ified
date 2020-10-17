@@ -71,9 +71,9 @@ if(isset($_POST['submit']))
                
 
 
-               $mail ->Username = "msjh0512backup@gmail.com";
-               $mail ->Password= '511200112';
-               $mail ->SetFrom("msjh0512backup@gmail.com");
+               $mail ->Username = "NA";
+               $mail ->Password= 'NA';
+               $mail ->SetFrom("NA");
                $mail ->FromName = "Class-ified";
  
                $mail ->addAddress($m);
